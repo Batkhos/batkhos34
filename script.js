@@ -1,16 +1,17 @@
-const text = "hello world , it's me Zaoui i am goin to be one of the best in he world <3 ..."
+const imgs = document.getElementById('imgs')
 
-let index = 0;
+const img = document.querySelectorAll('#imgs img')
 
-function writetext(){
-    document.body.innerText = text.slice(0, index)
+let idx = 0;
 
-    index++;
+function run(){
+    idx++;
 
-    if(index > text.length ){
-        index = 0;
+    if(idx > img.length - 1){
+        idx = 0;
     }
+
+    imgs.style.transform = `translateX(${-idx * 500}px)`; 
 }
 
-setInterval(writetext, 100);
-
+setInterval(run, 2000);

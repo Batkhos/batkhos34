@@ -1,17 +1,36 @@
-@import url('https://fonts.googleapis.com/css2?family=League+Spartan:wght@100;200;300;400;500;600;700;800;900&family=Ubuntu:ital@1&display=swap');
 *{
-    box-shadow: 0;
+    box-sizing: border-box;
 }
 
 body{
     display: flex;
+    align-items: center;
     justify-content: center;
+    margin: 0;
+    min-height: 100vh; 
+}
+h1{
     text-align: center;
-    justify-items: center;
-    position: relative;
-    top: 200px;
-    background-color: #000000;
-    color: white;
-    font-family: 'pixelify Sans';
+    position: absolute;
+    top: 5px;
+    
 }
 
+.carousel{
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+    overflow: hidden;
+    height: 500px;
+    width: 500px;
+}
+
+.image-container{
+    display: flex;
+    transition: transform 0.3s ease-in-out;
+    transform: translateX(0);
+}
+
+img{
+    object-fit: cover;
+    width: 500px;
+    height: 500px;
+}
