@@ -1,7 +1,7 @@
-- 👋 Hi, I’m @zaoui34
+- 👋 Hi, I’m @batkhos
 - 👀 I’m interested in improving my skills
 - 🌱 I’m currently learning  front end dev
-- 📫 How to reach me azaoui156@gmail.com
+- 📫 How to reach me Adachi on twitter
 - 
 
 <!---
