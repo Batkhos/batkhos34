@@ -1,16 +1,11 @@
-const text = "hello world , it's me Zaoui i am goin to be one of the best in he world <3 ..."
+const btn =document.getElementById('btn')
 
-let index = 0;
+btn.addEventListener('click', () => {
+    document.body.style.background = randombg()
+    
+})
 
-function writetext(){
-    document.body.innerText = text.slice(0, index)
-
-    index++;
-
-    if(index > text.length ){
-        index = 0;
-    }
+function randombg(){
+    return `hsl(${Math.floor(Math.random() * 360)}, 100%, 50%)`;
 }
-
-setInterval(writetext, 100);
 
