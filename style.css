@@ -1,0 +1,36 @@
+*{
+    margin: 0;
+    padding: 0;
+
+}
+body{
+    background-image: url('background.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+h1{
+    color: rgb(53, 16, 16);
+    font-size: 90px;
+    padding: 100px;
+    text-align: center;
+    font-weight: 800;
+}
+section{
+    border-left: 6px solid red;
+    border-style: groove;
+    border-color: #000000;
+    border-width: 70px;
+    border-radius: 70px ;
+    display: flex;
+    justify-content: space-around ;
+    font-size: 80px;
+    font-weight: 600;
+   
+
+}
+
+section div p{
+    position: relative;
+    left: 30px;
+    font-size: 80px;
+}
